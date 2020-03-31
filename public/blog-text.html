@@ -57,14 +57,14 @@
     </header>
     <!-- Header End -->
     <!-- Search Bar Begin -->
-       <section class="search-bar-wrap">
+    <section class="search-bar-wrap">
         <span class="search-close"><i class="fa fa-close"></i></span>
         <div class="search-bar-table">
             <div class="search-bar-tablecell">
                 <div class="search-bar-inner">
                     <h2>Поиск</h2>
-                    <form action="#">
-                        <input type="search" placeholder="Введите ключевые слова">
+                    <form action="./find.php" method="post">
+                        <input type="text" placeholder="Введите ключевые слова" name="key_words">
                         <button type="submit">Поиск</button>
                     </form>
                 </div>
